@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://cdn.syncfusion.com/ej2/material.css");
+body {
+  background-color: #f2f2ff;
+  font-family: "Roboto", sans-serif;
+}
+.slick-dots li button:before {
+  font-size: 14px !important;
+}
+.slick-prev:before,
+.slick-next:before {
+  color: black !important;
+}
+.slick-dots li.slick-active button:before {
+  color: #3913b8 !important;
+}
+.slick-dots li button {
+  color: #99a2d1 !important;
+}
+.react-calendar {
+  border: none !important;
+  width: 250px !important;
+}
+.react-calendar__tile:enabled:hover,
+.react-calendar__tile:enabled:focus {
+  background: #f8f8fa;
+  color: #6f48eb;
+  border-radius: 6px;
+}
+.react-calendar__tile--now {
+  background: #ee1e24;
+  border-radius: 6px;
+  font-weight: bold;
+  color: #fff;
+}
+.react-calendar__tile--now:enabled:hover,
+.react-calendar__tile--now:enabled:focus {
+  background: #ee1e24;
+  border-radius: 6px;
+  font-weight: bold;
+  color: #fff;
+}
+.react-calendar__tile--hasActive:enabled:hover,
+.react-calendar__tile--hasActive:enabled:focus {
+  background: rgba(238, 30, 36, 0.4);
+}
+.react-calendar__tile--active {
+  background: rgba(238, 30, 36, 0.6);
+  border: 2px solid #ee1e24;
+  border-radius: 6px;
+  font-weight: bold;
+  color: white;
+}
+.react-calendar__tile--active:enabled:hover,
+.react-calendar__tile--active:enabled:focus {
+  background: #ee1e24;
+  color: white;
+}
+.react-calendar--selectRange .react-calendar__tile--hover {
+  background-color: #ee1e24;
+}
+.react-calendar__tile--range {
+  background: #f8f8fa;
+  color: #6f48eb;
+  border-radius: 0;
+}
+.react-calendar__tile--rangeStart {
+  border-radius: 50%;
+  border: 2px solid #ee1e24 !important;
+  background: rgba(238, 30, 36, 0.6);
+  color: white;
+}
+.react-calendar__tile--rangeEnd {
+  border-radius: 50%;
+  border: 2px solid #ee1e24 !important;
+  background: rgba(238, 30, 36, 0.6);
+  color: white;
+}
+.pale-red {
+  background: rgba(255, 0, 0, 0.5);
+}
+.pale-blue {
+  background: rgba(57, 19, 184, 0.5);
+}
+.pale-gray {
+  background: rgba(0, 0, 0, 0.5);
+}

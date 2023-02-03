@@ -1,0 +1,203 @@
+import recom1 from '../../../../assets/recom1.jpg'
+import recom2 from '../../../../assets/recom2.jpg'
+import recom3 from '../../../../assets/recom3.jpg'
+
+const STUDENT_DATA = [
+    {
+      roll: 2011,
+      name: "Donetta Allward",
+      batch: 2009,
+      year: 2012,
+      gender: "M",
+      email: "dallward0@bizjournals.com",
+      course: "Research and Development",
+      image: recom1
+    },
+    {
+      roll: 2011,
+      name: "Mikol Comben",
+      batch: 2009,
+      year: 2003,
+      gender: "M",
+      email: "mcomben1@nationalgeographic.com",
+      course: "Human Resources",
+      image: recom2
+    },
+    {
+      roll: 1990,
+      name: "Rosa Partridge",
+      batch: 1997,
+      year: 2000,
+      gender: "M",
+      email: "rpartridge2@comcast.net",
+      course: "Training",
+      image: recom3
+    },
+    {
+      roll: 2008,
+      name: "Stephenie Earnshaw",
+      batch: 2001,
+      year: 2007,
+      gender: "M",
+      email: "searnshaw3@mit.edu",
+      course: "Marketing",
+      image: recom1
+    },
+    {
+      roll: 2010,
+      name: "Lorne Skarr",
+      batch: 2012,
+      year: 2009,
+      gender: "M",
+      email: "lskarr4@usgs.gov",
+      course: "Support",
+      image: recom2
+    },
+    {
+      roll: 2008,
+      name: "Mercedes Kuzma",
+      batch: 2007,
+      year: 1997,
+      gender: "M",
+      email: "mkuzma5@admin.ch",
+      course: "Accounting",
+      image: recom3
+    },
+    {
+      roll: 1984,
+      name: "Florri Pincked",
+      batch: 2008,
+      year: 2009,
+      gender: "M",
+      email: "fpincked6@who.int",
+      course: "Marketing",
+      image: recom1,
+    },
+    {
+      roll: 1994,
+      name: "Odele Pauel",
+      batch: 2012,
+      year: 1987,
+      gender: "M",
+      email: "opauel7@geocities.com",
+      course: "Marketing",
+      image: recom2,
+    },
+    {
+      roll: 2003,
+      name: "Sargent Nudd",
+      batch: 2001,
+      year: 2010,
+      gender: "F",
+      email: "snudd8@issuu.com",
+      course: "Support",
+      image: recom3,
+    },
+    {
+      roll: 1966,
+      name: "Christye Attrill",
+      batch: 2005,
+      year: 1995,
+      gender: "F",
+      email: "cattrill9@miibeian.gov.cn",
+      course: "Accounting",
+      image: recom1
+    },
+    {
+      roll: 2003,
+      name: "Parry Trewhella",
+      batch: 2010,
+      year: 2001,
+      gender: "M",
+      email: "ptrewhellaa@theguardian.com",
+      course: "Sales",
+      image: recom2,
+    },
+    {
+      roll: 2005,
+      name: "Naoma Aggs",
+      batch: 1999,
+      year: 2008,
+      gender: "M",
+      email: "naggsb@ucoz.com",
+      course: "Training",
+      image: recom3
+    },
+    {
+      roll: 2002,
+      name: "Donovan Mioni",
+      batch: 2006,
+      year: 1992,
+      gender: "F",
+      email: "dmionic@nydailynews.com",
+      course: "Sales",
+      image: recom1
+    },
+    {
+      roll: 1997,
+      name: "Winifield Mordan",
+      batch: 2008,
+      year: 1999,
+      gender: "M",
+      email: "wmordand@deviantart.com",
+      course: "Services",
+      image: recom2
+    },
+    {
+      roll: 2001,
+      name: "Carmine Vincent",
+      batch: 2011,
+      year: 1996,
+      gender: "M",
+      email: "cvincente@amazon.co.uk",
+      course: "Product Management",
+      image: recom3
+    },
+    {
+      roll: 2007,
+      name: "Teodorico Meneghi",
+      batch: 1992,
+      year: 2008,
+      gender: "F",
+      email: "tmeneghif@prlog.org",
+      course: "Business Development",
+    },
+    {
+      roll: 1989,
+      name: "Eb Brahm",
+      batch: 1991,
+      year: 2006,
+      gender: "F",
+      email: "ebrahmg@loc.gov",
+      course: "Accounting",
+    },
+    {
+      roll: 2007,
+      name: "Patty Storck",
+      batch: 2000,
+      year: 1987,
+      gender: "M",
+      email: "pstorckh@usa.gov",
+      course: "Sales",
+    },
+    {
+      roll: 2013,
+      name: "Haily Breacher",
+      batch: 1988,
+      year: 1990,
+      gender: "M",
+      email: "hbreacheri@ask.com",
+      course: "Legal",
+    },
+    {
+      roll: 2007,
+      name: "Shayne Tomicki",
+      batch: 2008,
+      year: 1997,
+      gender: "M",
+      email: "stomickij@tiny.cc",
+      course: "Support",
+    },
+  ];
+  export default STUDENT_DATA;
+  

@@ -1,0 +1,146 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  background: #e5e5e5;
+  z-index: 0;
+}
+
+a:hover {
+  color: black;
+}
+
+body {
+  background-image: url("./assets/Vector2.svg"), url("./assets/Vector1.svg");
+  background-size: 1100px 900px;
+  background-repeat: no-repeat;
+  background-position: -10px -120px;
+}
+
+.background {
+  background: #e5e5e5;
+}
+
+#in-demand {
+  background: rgba(96, 112, 255, 0.35);
+}
+.bg-overlay {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 100%);
+}
+
+@media screen and (max-width: 766px) {
+  body {
+    background-position: 0 0;
+    background-size: 600px 700px;
+  }
+  #in-demand {
+    background-position: 0 -150px;
+    background-size: 900px 1300px;
+  }
+}
+
+@media screen and (max-width: 599px) {
+  #in-demand {
+    background-position: 0 -50px;
+    background-size: 700px 900px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  body {
+    background-image: url("./assets/Vector1.svg");
+    background-position: 0 0;
+    background-size: 550px 650px;
+  }
+  #in-demand {
+    background-position: 0 0;
+    background-size: 600px 800px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  #in-demand {
+    background-position: 0 0;
+    background-size: 500px 700px;
+  }
+
+  .in-demand__app {
+    margin-top: -20px;
+  }
+}
+
+.blur {
+  position: fixed;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
+  opacity: 1;
+  z-index: 1;
+}
+
+#login {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  background-image: url("./assets/Vector2.svg"), url("./assets/Vector1.svg");
+  background-size: 1100px 900px;
+  background-repeat: no-repeat;
+  background-position: -10px -120px;
+  height: 100vh;
+  filter: blur(8px);
+}
+
+#login::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.45);
+}
+
+.login__form .form {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 200;
+  background: rgba(255, 255, 255, 0.43);
+  box-shadow: 0px 50px 100px rgba(0, 0, 0, 0.25);
+  z-index: 2;
+  padding: 3rem;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 480px) {
+  .login__form {
+    width: 10rem;
+    margin: 2rem;
+    padding: 10rem;
+  }
+
+  .login__form .form {
+    /* padding: 7rem; */
+    /* max-width: 5rem; */
+    width: 100%;
+  }
+}
+
+/* star styling */
+.star__rating input[type="radio"] {
+  display: none;
+}
+
+/* login form styling */
+
+input::placeholder {
+  color: black;
+}
+
+.login .login__input {
+  border: 1px solid #000;
+}
